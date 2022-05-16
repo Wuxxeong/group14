@@ -176,7 +176,7 @@ while not done:  # done이 False를 유지하는 동안 계속 실행, not False
         enermy.drawActor(screen)
         enermy.drawEnergyBar(screen)
         enermy.moveRandomly(nX, nY)
-# ===========================================================
+# ==========================================================
         if hero.isDead == True:
             print("나 죽음")
             pygame.display.update()
